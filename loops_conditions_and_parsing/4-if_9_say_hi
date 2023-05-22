@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
+#!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 counter =0
 while [ $counter -lt 10 ]; do
            echo "Best School"
             (( counter++ ))
-    if [ $counter -eq 9 ]; then
+    if [ $counter -eq 9 ]; 
+    then
             echo "Hi"
   fi
 done
