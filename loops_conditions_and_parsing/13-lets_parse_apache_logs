@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#display visitor IP along with the HTTP status code from the Apache 1 
-og file.
+#display visitor IP along with the HTTP status code from the Apache 1 og file.
 
 awk '{print $1 " " $9}' apache-access.10g
