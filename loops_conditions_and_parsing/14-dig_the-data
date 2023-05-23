@@ -1,1 +1,5 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
+# Bash script that groups visitors by IP and HTTP stauts code, and di
+splays the data
+
+awk '{print $1 " " $9}' apache-access.log | sort | uniq -c | sort -rn
