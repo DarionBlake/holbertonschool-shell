@@ -2,4 +2,4 @@
 #display visitor IP along with the HTTP status code from the Apache l
 og file.
 
-awk '{print $1 " " $9}' apache-access.10g
+awk '{print $1 " " $9}' apache-access.log
